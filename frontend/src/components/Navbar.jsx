@@ -12,7 +12,7 @@ const Navbar = () => {
       {/* background pattern */}
       <picture>
         <source
-          srcSet="/assets/desktop/bg-pattern-header.svg"
+          srcSet="../../dist/assets/desktop/bg-pattern-header.svg"
           media="(min-width:1024px)"
         />
         <source

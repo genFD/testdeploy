@@ -19,7 +19,7 @@ const Navbar = () => {
           srcSet="/assets/tablet/bg-pattern-header.svg"
           media="(min-width:768px)"
         />
-        <img src="/assets/mobile/bg-pattern-header.svg" alt="" />
+        <img src="../../dist/assets/mobile/bg-pattern-header.svg" alt="" />
       </picture>
 
       {/* CONTAINER FOR  LOGO AND TOGGLE */}

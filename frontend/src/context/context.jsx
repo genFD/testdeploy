@@ -3,7 +3,7 @@ import axios from 'axios';
 const AppContext = React.createContext();
 
 // const API_URL = '/v1/devjobs/jobs/';
-const API_URL = 'https://devjobsv1.herokuapp.com/v1/devjobs/jobs/';
+const API_URL = 'https://devjobsv1.herokuapp.com/v1/devjobs/jobs';
 
 const AppProvider = ({ children }) => {
   /* ------------------- */

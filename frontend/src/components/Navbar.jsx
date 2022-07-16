@@ -12,14 +12,14 @@ const Navbar = () => {
       {/* background pattern */}
       <picture>
         <source
-          srcSet="../../dist/assets/desktop/bg-pattern-header.svg"
+          srcSet="/assets/desktop/bg-pattern-header.svg"
           media="(min-width:1024px)"
         />
         <source
           srcSet="/assets/tablet/bg-pattern-header.svg"
           media="(min-width:768px)"
         />
-        <img src="../../dist/assets/mobile/bg-pattern-header.svg" alt="" />
+        <img src="/assets/mobile/bg-pattern-header.svg" alt="" />
       </picture>
 
       {/* CONTAINER FOR  LOGO AND TOGGLE */}

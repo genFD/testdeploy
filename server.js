@@ -16,7 +16,7 @@ colors.setTheme({
 
 app.use(express.json());
 
-app.use(serve(__dirname + '/dist'));
+app.use(express.static('frontend/dist'));
 
 app.use('/v1/devjobs/jobs', devjobsRoutes);
 

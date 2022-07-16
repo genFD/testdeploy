@@ -7,6 +7,7 @@ import { useGlobalContext } from '../context/context.jsx';
 
 const Cards = () => {
   const { results, loading } = useGlobalContext();
+  const test = ['test', 'test', 'test', 'test', 'test'];
   if (loading) {
     return <Loading />;
   }
@@ -26,7 +27,7 @@ const Cards = () => {
       leaveTo="opacity-0 scale-95"
     >
       <ul className="min-w-[375px] grid grid-rows-[1fr] gap-y-[49px] place-items-center tablet:grid-cols-[1fr_1fr] tablet:gap-y-[65px] tablet:gap-x-[11px] desktop:grid-cols-[1fr_1fr_1fr] desktop:gap-y-[40px] desktop:gap-x-[30px] mt-14 tablet:mt-16 mx-auto w-fit mb-8">
-        {results.map((job) => {
+        {test.map((job) => {
           return <Card key={job.id} {...job.content} id={job.id} />;
         })}
       </ul>

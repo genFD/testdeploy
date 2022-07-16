@@ -10,7 +10,7 @@
     "conc": "concurrently \"npm run server\" \"npm run client\"",
     "format": "prettier --write \"frontend/src/**/*.{js,jsx}\"",
     "lint": "eslint \"frontend/src/**/*.{js,jsx}\" --quiet",
-    "build": "npm install vite --prefix frontend && npm run build --prefix frontend",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
     "install-client": "npm install --prefix frontend"
   },
   "keywords": [],
